@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+canvas {
+
+}
+
+.canvas-colors {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.pen-colors {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    display: grid;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    bottom: 0;
+}
+
+.bg-color {
+    height: 50px;
+
+}
+
+.pen-color {
+    height: 50px;
+    transition: all 0.5s ease;
+    flex: 1;
+}
